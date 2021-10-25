@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario para usuario</title>
+</head>
+<body>
+	<table border=1>
+		<tr><th COLSPAN=2 style="background-color:Khaki;">FORMULARIO PARA USUARIO</th></tr>
+		
+		<tr style="background-color:skyblue;">
+			<td>
+				<label for="nombre">Introduce tu nombre</label>
+			</td>
+			<td>
+				<form method="Post" action="http://formadorestic.com/alumnosasir2/procesaformulario_usuario.php">
+				
+  				<input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre...">
+			
+			</td>
+		</tr>
+		<tr style="background-color:skyblue;">
+			<td >
+				<label for="contraseña">Introduce tu contraseña</label>
+			</td>
+			<td>
+				<form method="Post" action="http://formadorestic.com/alumnosdaw/procesaformulario.php">
+				
+  				<input type="password" id="contraseña" name="password" placeholder="Escriba su contraseña...">
+			
+			</td>
+		</tr>
+		<tr style="background-color:skyblue;">
+			<td>
+				<label for="direccion">Introduce tu direccion</label>
+			</td>
+			<td>
+				<form method="Post" action="http://formadorestic.com/alumnosdaw/procesaformulario.php">
+				
+  				
+				<textarea id="direccion" name="direccion" rows="4" cols="26" placeholder="Escriba su direccion...">
+				
+				</textarea>
+			</td>
+		</tr>
+		<tr style="background-color:skyblue;">
+			<td>
+				Elige deportes
+			</td>
+			<td>
+				<input type="checkbox" id="hockey" name="deportes[]" value="hockey">
+  				<label for="hockey"> Hockey</label><br>
+  				<input type="checkbox" id="futbol" name="deportes[]" value="futbol">
+  				<label for="futbol"> Futbol</label><br>
+  				<input type="checkbox" id="badminton" name="deportes[]" value="badminton">
+  				<label for="badminton"> Badminton</label><br>
+  				<input type="checkbox" id="cricket" name="deportes[]" value="cricket">
+  				<label for="cricket"> Cricket</label><br>
+  				<input type="checkbox" id="volley" name="deportes[]" value="volley">
+  				<label for="volley"> Volley</label><br>
+
+
+			
+			</td>
+		</tr>
+				<tr style="background-color:skyblue;">
+			<td>
+				Selecciona tu sexo
+			</td>
+			<td>
+			<input type="radio" id="mujer" name="sexo" value="Mujer">
+  			<label for="mujer">Mujer</label>
+  			<input type="radio" id="hombre" name="sexo" value="Hombre">
+  			<label for="hombre">Hombre</label>
+  			
+
+			
+			</td>
+		</tr>
+			<tr style="background-color:skyblue;">
+			<td>
+ 				<label for="edad">Introduce tu edad</label>			
+ 			</td>
+			<td>
+			<select name="edad" id="edad">
+  			<option value="16">16</option>
+  			<option value="18">17</option>
+  			<option value="18">18</option>
+  			<option value="18">19</option>
+			<option value="20">20</option>
+  			<option value="21">21</option>
+  			<option value="22">22</option>
+  			<option value="23">23</option>
+			</select>
+
+			</td>
+		</tr>
+
+			<tr style="background-color:skyblue;">
+			<td colspan="2">
+ 			
+ 			<input type="file" id="myfile" name="myfile">
+
+			</td>
+		</tr>
+			
+
+
+
+
+		<tr style="background-color:skyblue;"> 
+			<td colspan="2">
+				<input type="button" value="Click Me">
+				<input type="reset" value="Restablecer">
+				<input type="submit" value="Enviar" target="_blank">
+			</td>
+		</tr>
